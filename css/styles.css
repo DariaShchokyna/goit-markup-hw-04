@@ -3,6 +3,10 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+main {
+  display: flex;
+  flex-direction: column;
+}
 :root {
   --primary_brand: #4d5ae5;
   --pressed-state: #404bbf;
@@ -252,9 +256,8 @@ h6 p {
 /* Section 2 */
 .name_two {
   width: 1128px;
-  height: 104px;
-  padding: 120px 0;
-  margin: 0 156px;
+  padding: 0 15px;
+  margin: 120px 156px;
 }
 .visually-hidden {
   position: absolute;
@@ -276,6 +279,7 @@ h6 p {
 .descreption {
   width: calc((100% - 72px) / 4);
 }
+
 .icon {
   display: flex;
   flex-direction: column;
@@ -313,10 +317,13 @@ h6 p {
 
 /* Section 3 */
 .name_three{
-  margin: 120px 156px;
+  width: 1440px;
+  display: flex;
+  align-items: center;
+}
+.three_section{
   width: 1128px;
   height: 412px;
-  padding-bottom: 120px;
 }
 
 .doing {
@@ -327,6 +334,7 @@ h6 p {
   line-height: 1.11em;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+
 }
 .achievement {
   margin-bottom: 72px;
@@ -347,10 +355,10 @@ h6 p {
   display: flex;
   align-items: center;
   background-color: var(--light);
-  margin: 120px 0;
   width: 1440px;
   height: 732px;
   padding: 120px 0;
+  margin-top: 120px;
 }
 .team {
   font-size: 36px;
@@ -389,6 +397,10 @@ h6 p {
   text-align: center;
   margin-bottom: 8px;
 }
+.no-align{
+  align-items: inherit;
+  justify-content: inherit;
+}
 .team-member-header {
   text-align: center;
   margin-bottom: 8px;
@@ -401,6 +413,9 @@ h6 p {
   display: flex;
   justify-content: center;
   gap: 24px;
+  list-style: none;
+padding: 0;
+margin-top: 8px;
 }
 .social-merezha{
   width: 40px;
@@ -470,7 +485,6 @@ h6 p {
 }
 .end {
   width: 1440px;
-  height: 312px;
   background: var(--dark);
   padding-top: 100px;
   padding-bottom: 100px;
