@@ -421,7 +421,6 @@ margin-top: 8px;
 .social-merezha{
   width: 40px;
   height: 40px; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .posulania{
   width: 100%;
@@ -431,6 +430,7 @@ margin-top: 8px;
   display: flex;
   align-items: center;
   justify-content: center; 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .posulania:hover,
 .posulania:focus{
@@ -456,6 +456,7 @@ margin-top: 8px;
   display: flex;
   gap: 24px;
   list-style: none;
+  padding: 0;
 }
 .punkts-klients{
   width: calc((100% - 120px) / 6);
@@ -479,6 +480,8 @@ margin-top: 8px;
 }
 .images-klients{
   fill: currentColor;
+  width: 100%;
+  height: 100%;
 
 }
 
@@ -553,6 +556,7 @@ margin-top: 8px;
   padding: 0%;
 }
 .element-sotsmerezh{
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
@@ -648,6 +652,11 @@ margin-top: 8px;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.buttons_name:focus,
+.buttons_name:hover{
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12); 
 }
 .main_buttons {
   display: flex;
@@ -670,6 +679,33 @@ margin-top: 8px;
   row-gap: 48px;
   width: 1128px;
 }
+.posulania_img{
+  display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.posulania_img:hover,
+.posulania:focus{
+  transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.images-main{
+  position: relative;
+  overflow: hidden;
+}
+.paragrafe-main{
+  position: absolute;
+  top: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  padding: 40px 32px; 
+  background-color: #4d5ae5; 
+  height: 100%;
+  width: 100%; 
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .number_par {
   width: calc((100% - 48px) / 3);
 }
@@ -687,14 +723,14 @@ margin-top: 8px;
 .photo.photo_list {
   text-decoration: none;
 }
-.link .link > h2 {
+.h2 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.link > p {
+.p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
