@@ -278,12 +278,17 @@ h6 p {
 }
 .icon {
   display: flex;
+  flex-direction: column;
   align-items: center; 
   justify-content: center; 
   height: 112px;
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+}
+.second-icon {
+  width: 64px;
+  height: 64px;
 }
 .descreption_name {
   color: var(--dark);
