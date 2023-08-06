@@ -745,14 +745,18 @@ text-transform: uppercase;
 }
 .number {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-  width: 1128px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-right: 0;
+    column-gap: 24px;
+    row-gap: 48px;
 }
 .posulania-img{
   display: block;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .posulania-img:hover,
 .posulania-img:focus{
@@ -769,28 +773,27 @@ text-transform: uppercase;
 }
 .paragrafe-main{
   color: var(--light);
-font-size: 16px;
-font-weight: 400;
-line-height: 1.5em;
-letter-spacing: 0.02em;
-
-position: absolute;
-top: 0;
-padding: 40px 32px;
-margin: 0;
-background-color: var(--primary_brand);
-
-height: 100%;
-width: 100%;
-
-transform: translateY(100%); 
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    position: absolute;
+    top: 0;
+    padding: 40px 32px;
+    margin: 0;
+    background-color: var(--primary_brand);
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 .number_par {
   width: calc((100% - 48px) / 3);
+  position: relative;
 }
 .part_number_par {
   padding: 32px 16px;
