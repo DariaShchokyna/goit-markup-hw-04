@@ -655,7 +655,10 @@ text-transform: uppercase;
 .icon-modal-windows{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.icon-modal-windows:hover,
+.icon-modal-windows:focus{
+  fill: #ffffff;
+}
 .close-modal:hover,
 .close-modal:focus{
   fill: #ffffff;
@@ -717,6 +720,7 @@ text-transform: uppercase;
 .posulania_img:hover,
 .posulania_img:focus{
   transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .images-main{
   position: relative;
