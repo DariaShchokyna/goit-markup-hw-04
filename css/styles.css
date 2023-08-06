@@ -517,12 +517,13 @@ margin-top: 8px;
   display: flex;
   flex-direction: row;
 }
+.logo-text{
+  margin-right: 120px;
+}
 .footer-cup{
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  margin-right: 120px;
-
 }
 .off {
   margin-bottom: 16px;
