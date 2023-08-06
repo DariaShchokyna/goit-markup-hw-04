@@ -488,7 +488,7 @@ margin-top: 8px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .posulania-klients:hover,
-.images-klients:focus{
+.posulania-klients:focus{
   color: var(--pressed-state);
   border-color: var(--pressed-state);
 }
@@ -691,8 +691,8 @@ text-transform: uppercase;
 .button-modal-windows:hover,
 .button-modal-windows:focus{
   background-color: var(--pressed-state);
-  background-color: #404bbf;
-  border: none;
+    fill: #ffffff;
+    border: none;
 }
 .icon-modal-windows{
   background-color: 1px solid var(--subtle-text);
@@ -707,7 +707,6 @@ text-transform: uppercase;
   list-style: none;
   padding-top: 96px;
   padding-bottom: 120px;
-  width: 1440px;
 }
 .buttons_name {
   color: var(--iris, #4D5AE5);
@@ -793,6 +792,11 @@ text-transform: uppercase;
 }
 .heading {
   margin-bottom: 8px;
+  color: var(--dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
 }
 .photo {
   list-style: none;
