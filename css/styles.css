@@ -647,11 +647,14 @@ text-transform: uppercase;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
-.button-modal-windows:hover,
-.button-modal-windows:focus{
+.button-modal-windows:hover{
   background-color: #404bbf;
   border: none;
 }
+.button-modal-windows:focus{
+  background-color: #404bbf;
+  border: none;
+  }
 .icon-modal-windows{
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
