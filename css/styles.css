@@ -763,8 +763,7 @@ text-transform: uppercase;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .posulania-img:hover .paragrafe-main,
-.posulania-img:focus .paragrafe-main{
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);    
+.posulania-img:focus .paragrafe-main{   
   transform: translateY(0);
 }
 .images-main{
@@ -783,7 +782,7 @@ text-transform: uppercase;
     margin: 0;
     background-color: var(--primary_brand);
     height: 100%;
-    width: 296px;
+    width: 100%;
     transform: translateY(100%);
     transition-property: transform;
     transition-duration: 250ms;
