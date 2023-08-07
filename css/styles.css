@@ -214,7 +214,7 @@ letter-spacing: 0.32px;
     background-color: var(--dark);
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg)
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
     min-width: 1440px;
