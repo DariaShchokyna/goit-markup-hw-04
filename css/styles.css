@@ -783,7 +783,7 @@ text-transform: uppercase;
     margin: 0;
     background-color: var(--primary_brand);
     height: 100%;
-    width: 100%;
+    width: 296px;
     transform: translateY(100%);
     transition-property: transform;
     transition-duration: 250ms;
