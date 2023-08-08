@@ -481,32 +481,35 @@ margin-top: 8px;
   height: 88px;
 }
 .posulania-klients{
-  width: 100%;
-  height: 100%;
-  border-radius: 4px;
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  color: #8e8f99;
-  border: 1px solid #8e8f99;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  display: flex;
+    width: 168px;
+    height: 88px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid var(--subtle-text);
+
+    color: var(--subtle-text);
+    transition-property: border-color, color;
+    transition-duration: 250ms, 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1), cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .posulania-klients:hover,
-.posulania-klients:focus{
+.posulania-klients:focus {
   color: var(--pressed-state);
   border-color: var(--pressed-state);
 }
-.posulania-klients:hover .images-klients{
+.posulania-klients:hover .images-klients {
   fill: var(--pressed-state);
     color: var(--pressed-state)
 }
-.images-klients{
+.images-klients {
   fill: currentColor;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 /* FOOTER */
 .justify-left {
@@ -577,9 +580,7 @@ text-transform: uppercase;
   color: #FFFFFF;
   margin-bottom: 16px;
 }
-.sotial-icon{
-  margin-left: 120px;
-}
+
 .container-sotsmerezh{
   display: flex;
   gap: 16px;
